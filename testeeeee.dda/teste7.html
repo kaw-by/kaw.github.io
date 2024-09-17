@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Festa</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000000;
+            margin: 0;
+        }
+
+        .invitation {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .photo {
+            width: 400px;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+
+        .form-container {
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 700px;
+            border: none;
+            height: 500px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <img src="./images.jfif" alt="Foto da Festa" class="photo">
+        <h1>Você está convidado!</h1>
+        <h2>Resenha da Duda</h2>
+       <p>Confirme sua presença!</p>
+        <div class="form-container">
+            <iframe src="https://forms.gle/un12h5UXMuVvagND7"></iframe>
+        </div>
+    </div>
+</body>
+</html>
